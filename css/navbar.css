@@ -1,0 +1,43 @@
+.login-btn:hover{
+    background-image: url('../images/naruto-background.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* text-outline supports all browsers (text-stroke is a no go)*/
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
+    }
+    .register-btn:hover{
+    background-image: url('../images/naruto-background.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+     /* text-outline supports all browsers (text-stroke is a no go)*/
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
+    }
+    .offcanvas-backdrop{
+      display: none;
+    }
+    
+    @media (min-width: 728px){
+      #Mobile-Navbar{
+        display:none;
+      }
+    }
+    @media (max-width: 500px){
+      #SearchBox,#search{
+        display:none;
+      }
+      #Mobile-Navbar{
+        display:block;
+        float:right;
+        justify-content: right;
+      }
+    }

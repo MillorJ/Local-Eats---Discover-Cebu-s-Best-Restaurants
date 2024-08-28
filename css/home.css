@@ -1,0 +1,180 @@
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-logo img {
+    max-height: 50px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+    margin-right: 3px;
+    margin-top: 15px;
+  }
+  
+  .navbar-links li:last-child {
+    margin-right: 0;
+    
+  }
+  
+  .navbar-links a {
+    
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  .navbar-links a:hover {
+    animation: rainbow 2s linear infinite;
+    color:antiquewhite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #555;
+  }
+  #search:hover{
+    animation: rainbow2 3s linear infinite;
+    border-width: 2px;
+  }
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-logo {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+    }
+  
+    .navbar-links li {
+      margin-bottom: 10px;
+    }
+  }
+  @keyframes rainbow {
+    0% {
+      border-color: red;
+    }
+    16% {
+      border-color: orange;
+    }
+    32% {
+      border-color: yellow;
+    }
+    48% {
+      border-color: green;
+    }
+    64% {
+      border-color: blue;
+    }
+    80% {
+      border-color: indigo;
+    }
+    100% {
+      border-color: violet;
+    }
+  }
+    @keyframes rainbow2 {
+      0% {
+        color: red;
+        border-color:red;
+      }
+      16% {
+        color: orange;
+        border-color:orange;
+      }
+      32% {
+        color: yellow;
+        border-color:yellow;
+      }
+      48% {
+        color: green;
+        border-color:green;
+      }
+      64% {
+        color: blue;
+        border-color:blue;
+      }
+      80% {
+        color: indigo;
+        border-color: indigo;
+      }
+      100% {
+        color: violet;
+        border-color:violet;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .navbar-links{
+        display:none;
+      }
+    }
+    #Card1{
+      display:inline-block;
+      margin: 10px 10px 10px 10px;
+    }
+
+    .cards {
+      background-image: url('../images/lastbg.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+
+    .login-btn:hover{
+    background-image: url('../images/naruto-background.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* text-outline supports all browsers (text-stroke is a no go)*/
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
+    }
+    .register-btn:hover{
+    background-image: url('../images/naruto-background.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+     /* text-outline supports all browsers (text-stroke is a no go)*/
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
+    }
+    @media (min-width: 728px){
+      #Mobile-Navbar{
+        display:none;
+      }
+    }
+    @media (max-width: 500px){
+      #SearchBox,#search{
+        display:none;
+      }
+      #Mobile-Navbar{
+        display:block;
+        float:right;
+      }
+    }

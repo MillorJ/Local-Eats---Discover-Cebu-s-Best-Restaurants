@@ -1,0 +1,178 @@
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 8px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 12px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #f8d8af;
+    color: black;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #facf98;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .container1 {
+    border-radius: 5px;
+    background-color: #fbefde;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .login-btn:hover{
+  background-image: url('../images/naruto-background.gif');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* text-outline supports all browsers (text-stroke is a no go)*/
+  text-shadow:
+  -1px -1px 0 black,
+   1px -1px 0 black,
+   -1px 1px 0 black,
+   1px 1px 0 black;
+  }
+  .register-btn:hover{
+  background-image: url('../images/naruto-background.gif');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+   /* text-outline supports all browsers (text-stroke is a no go)*/
+  text-shadow:
+  -1px -1px 0 black,
+   1px -1px 0 black,
+   -1px 1px 0 black,
+   1px 1px 0 black;
+  }
+  @media (min-width: 728px){
+    #Mobile-Navbar{
+      display:none;
+    }
+  }
+  @media (max-width: 500px){
+    #SearchBox,#search{
+      display:none;
+    }
+    #Mobile-Navbar{
+      display:block;
+      float:right;
+    }
+  }
+  body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+      }
+      .container {
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 20px;
+          box-sizing: border-box;
+      }
+      h1 {
+          text-align: center;
+          margin: 20px 0;
+      }
+      p {
+          text-align: center;
+          margin: 0 0 20px;
+      }
+      .picture-scroll {
+          display: flex;
+          overflow-x: scroll;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+      }
+      .picture-scroll::-webkit-scrollbar {
+          display: none;
+      }
+      .picture-scroll img {
+          width: 250px;
+          height: 150px;
+          object-fit: cover;
+          margin-right: 10px;
+      }
+      form {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 20px;
+      }
+      form input, form textarea {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          resize: vertical;
+      }
+      form button {
+          background-color: #4CAF50;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          margin-top: 10px;
+          margin-left: auto;
+          display: block;
+      }
+      form button:hover {
+          background-color: #3e8e41;
+      }
+      @media screen and (max-width: 600px) {
+          .picture-scroll img {
+              width: 150px;
+              height: 90px;
+              margin-right: 5px;
+          }
+      }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #f8d8af;
+    color: black;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #facf98;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+  }

@@ -1,0 +1,206 @@
+#restaurant-image {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+#restaurant-info {
+    text-align: justify;
+    margin: 50px;
+    max-width: 1000px; /* Adjust to your preference */
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#restaurant-info p {
+    margin: 10px 0;
+}
+.restaurant-image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* CAFE LAGUNA =================================== */
+.CAFELAGUNA-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 550px; 
+}
+.CAFELAGUNA-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 550px; 
+}
+.CAFELAGUNA-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 548px; 
+}
+/* RICO'S LECHON ================================= */
+.RICO-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 800px;
+}
+.RICO-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 617px;
+}
+.RICO-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 593px;
+}
+/* SILOGAN NI GIAN =============================== */
+.GIAN-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 900px;
+}
+.GIAN-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 830px;
+}
+.GIAN-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 650px;
+}
+/* HOUSE OF LECHON =============================== */
+.HOL-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 1000px; 
+}
+.HOL-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 450px; 
+}
+.HOL-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 450px; 
+}
+/* LA VIE PARISIENNE ============================= */
+.LAVIE-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 900px;
+}
+.LAVIE-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 523px;
+}
+.LAVIE-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 537px;
+}
+
+/* Edsnath's Payag-Payag =============================== */
+.PAYAG-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 998px;
+}
+.PAYAG-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 898px;
+}
+.PAYAG-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 900px
+}
+
+/* Lantaw Cordova =============================== */
+.LANTAW-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 998px;
+}
+.LANTAW-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 1500px;
+}
+.LANTAW-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 900px
+}
+
+/* Top of Cebu =============================== */
+.TOP-image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 998px;
+}
+.TOP-image2 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 1500px;
+}
+.TOP-image3 {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 900px
+}
+
+/* ======================================= COMMENTS */
+.comment-form {
+    text-align: center;
+    width: 100%;
+    max-width: 1000px; /* Adjust the width as per your preference */
+    margin: 0 auto;
+}
+.comment-form input[type="text"], .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.comment-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#rating-bar {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 600px; /* Adjust the width as per your preference */
+    margin-left: auto;
+    margin-right: auto;
+}
+.user-comments {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 600px; /* Adjust the width as per your preference */
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1; /* Added */
+    display: flex; /* Added */
+    flex-direction: column; /* Added */
+    justify-content: center; /* Added */
+}
+#comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+#comment-list li {
+    margin-bottom: 10px;
+}
