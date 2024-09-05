@@ -26,24 +26,21 @@ $reviews = getAllReviews($id);
 $rows = getNumReviews($id);
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Local Eats</title>
-    <!--Bootstrap CSS-->
+    <title>Restaurant Page | Local Eats</title>
+    <!-- Bootstrap CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!--Bootsrap JS-->
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <!--Restaurant Icon-->
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.bundle.min.js" defer></script>
+    <!-- Google Material Symbols -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <!--Custom FavIcon-->
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../images/fav-ico.png" type="image/x-icon">
-    <!--Custom CSS-->
-    <link href="../css/home.css" rel="stylesheet" type="text/css" >
-    <!--Goolge API Styles-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Restaurant Page</title>
+    <!-- Custom CSS -->
+    <link href="../css/home.css" rel="stylesheet" type="text/css">
     <style>
         <?php include '../css/cafelaguna.css'; ?>
     </style>
