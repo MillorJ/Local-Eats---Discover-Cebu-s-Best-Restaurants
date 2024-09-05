@@ -24,9 +24,7 @@ if (isset($_POST['create_review'])) {
 
 $reviews = getAllReviews($id);
 $rows = getNumReviews($id);
-
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
