@@ -150,10 +150,10 @@
         max-width: 600px; /* Adjust the width as per your preference */
         margin-left: auto;
         margin-right: auto;
-        flex: 1; /* Added */
-        display: flex; /* Added */
-        flex-direction: column; /* Added */
-        justify-content: center; /* Added */
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #comment-list {
         list-style: none;
