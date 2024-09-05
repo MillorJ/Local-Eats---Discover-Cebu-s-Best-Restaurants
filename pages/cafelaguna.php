@@ -77,30 +77,28 @@ $rows = getNumReviews($id);
     </div>
     </div>
     <div class="user-comments">
-        <h2>User Comments</h2>
-        <div class="comment-form">
-            <br><br>
-            <form method="POST">
-            <label for="user_name">Your Name:</label>
-            <input type="text" name="user_name" required>
-            <br>
-            <label for="rating">Rating:</label>
-            <select name="rating" required>
-                <option value="5">5 stars</option>
-                <option value="4">4 stars</option>
-                <option value="3">3 stars</option>
-                <option value="2">2 stars</option>
-                <option value="1">1 star</option>
-            </select>
-            <br>
-            <label for="comment">Comment:</label>
-            <textarea name="comment" required></textarea>
-            <br>
-            <input type="submit" name="create_review" value="Submit Review">
-        </form>
-      </div>
-    </div>
-  </div>
+            <h2>User Comments</h2>
+            <div class="comment-form">
+                <form method="POST">
+                    <label for="user_name">Your Name:</label>
+                    <input type="text" name="user_name" id="user_name" required>
+                    <br>
+                    <label for="rating">Rating:</label>
+                    <select name="rating" id="rating" required>
+                        <option value="5">5 stars</option>
+                        <option value="4">4 stars</option>
+                        <option value="3">3 stars</option>
+                        <option value="2">2 stars</option>
+                        <option value="1">1 star</option>
+                    </select>
+                    <br>
+                    <label for="comment">Comment:</label>
+                    <textarea name="comment" id="comment" required></textarea>
+                    <br>
+                    <input type="submit" name="create_review" value="Submit Review">
+                </form>
+            </div>
+        </div>
   <div class="comments">
         <?php
             for($i = 0; $i < $rows; $i++) {
