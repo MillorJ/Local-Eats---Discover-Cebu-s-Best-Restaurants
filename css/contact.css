@@ -102,17 +102,17 @@ p {
   display: none; /* Hide scrollbar for Webkit browsers */
 }
 
-      .picture-scroll img {
-          width: 250px;
-          height: 150px;
-          object-fit: cover;
-          margin-right: 10px;
-      }
-      form {
-          display: flex;
-          flex-wrap: wrap;
-          margin-top: 20px;
-      }
+.picture-scroll img {
+  width: 250px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Cover the image */
+  margin-right: 10px; /* Spacing between images */
+}
+form {
+  display: flex; /* Flexbox layout */
+  flex-wrap: wrap; /* Wrap form fields */
+  margin-top: 20px; /* Top margin */
+}
       form input, form textarea {
           display: block;
           width: 100%;
