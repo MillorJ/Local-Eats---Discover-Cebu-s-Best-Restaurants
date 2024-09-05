@@ -11,30 +11,23 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 ?>
 <?php
 
-// Define variables and set to empty values
-$subject = $email = $message = "";
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $subject = test_input($_POST["subject"]);
   $message = test_input($_POST["message"]);
 
-  $message = trim($message); // Remove leading and trailing spaces
-  $subject = trim($subject); // Remove leading and trailing spaces
-
-  $mailtoLink = "mailto:usclocaleats@gmail.com?subject=" . rawurlencode($subject) . "&body=" . rawurlencode($message);
+  // Trim leading and trailing spaces
+  $subject = trim($subject);
+  $message = trim($message);
 
   // Redirect to the email link
+  $mailtoLink = "mailto:usclocaleats@gmail.com?subject=" . rawurlencode($subject) . "&body=" . rawurlencode($message);
   header("Location: $mailtoLink");
   exit;
 }
 
 // Function to sanitize user input
 function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-  
+  return htmlspecialchars(stripslashes(trim($data)));
 }
 ?>
 
