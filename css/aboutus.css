@@ -1,30 +1,41 @@
-.pic1 {
+.pic1, .pic2, .pic3, .pic4, .pic5 {
   display: inline-block;
   padding: 10px;
-  background-color: black;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
+/* Colorful backgrounds */
+.pic1 {
+  background-color: #ff6f61; /* Vibrant coral */
+}
+
 .pic2 {
-    display: inline-block;
-    padding: 10px;
-    background-color: black;
-  }
-  .pic3 {
-    display: inline-block;
-    padding: 10px;
-    background-color: black;
-  }
-  .pic4 {
-    display: inline-block;
-    padding: 10px;
-    background-color: black;
-  }
-  .pic5 {
-    display: inline-block;
-    padding: 10px;
-    background-color: black;
-  }
-  .pic1 {
-    display: inline-block;
-    padding: 10px;
-    background-color: black;
-  }
+  background-color: #6a67ce; /* Soft purple */
+}
+
+.pic3 {
+  background-color: #f7b801; /* Bright yellow */
+}
+
+.pic4 {
+  background-color: #28c7fa; /* Light blue */
+}
+
+.pic5 {
+  background-color: #ff4081; /* Bright pink */
+}
+
+/* Hover effect for all pics */
+.pic1:hover, .pic2:hover, .pic3:hover, .pic4:hover, .pic5:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  background-color: #000; /* Transition to black on hover */
+}
+
+/* Add hover effect for color transition */
+.pic1:hover { background-color: #ff8a75; }
+.pic2:hover { background-color: #8583e1; }
+.pic3:hover { background-color: #f8c54c; }
+.pic4:hover { background-color: #47d5fb; }
+.pic5:hover { background-color: #ff7098; }
