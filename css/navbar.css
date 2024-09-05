@@ -1,15 +1,16 @@
-.login-btn:hover{
+.login-btn:hover,
+.register-btn:hover {
     background-image: url('../images/naruto-background.gif');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* text-outline supports all browsers (text-stroke is a no go)*/
+    /* text-shadow for cross-browser compatibility */
     text-shadow:
-    -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
-    }
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
     .register-btn:hover{
     background-image: url('../images/naruto-background.gif');
     background-size: cover;
