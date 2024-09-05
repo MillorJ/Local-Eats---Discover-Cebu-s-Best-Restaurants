@@ -124,12 +124,14 @@
         object-fit: cover;
         max-height: 537px; 
     }
-    .comment-form {
-        text-align: center;
-        width: 100%;
-        max-width: 1000px; 
-        margin: 0 auto;
-    }
+    /* Comment form styles */
+.comment-form {
+    text-align: center;
+    width: 100%;
+    max-width: 1000px; /* Adjust the width as per your preference */
+    margin: 0 auto;
+}
+
     .comment-form input[type="text"], .comment-form textarea {
         width: 100%;
         padding: 10px;
