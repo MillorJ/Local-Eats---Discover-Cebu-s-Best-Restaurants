@@ -78,14 +78,15 @@
         float:right;
     }
     }
-  #restaurant-image {
-        width: 100%;
-        height: auto;
-        max-height: 50vh;
-        object-fit: cover;
-        display: block;
-        margin: 0 auto;
-    }
+ /* Restaurant Section */
+#restaurant-image {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
     #restaurant-info {
         text-align: justify;
         margin: 50px;
