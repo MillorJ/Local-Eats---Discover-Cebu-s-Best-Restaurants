@@ -2,13 +2,10 @@
 session_start();
 
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
-    // user is not logged in, redirect to login page
-    //  header('Location: login.php');
     header('Location: login.php?show_overlay=true');
     exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
