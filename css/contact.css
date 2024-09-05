@@ -98,9 +98,10 @@ p {
   scrollbar-width: none; /* Hide scrollbar */
   -ms-overflow-style: none; /* Internet Explorer/Edge hide scrollbar */
 }
-      .picture-scroll::-webkit-scrollbar {
-          display: none;
-      }
+.picture-scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers */
+}
+
       .picture-scroll img {
           width: 250px;
           height: 150px;
