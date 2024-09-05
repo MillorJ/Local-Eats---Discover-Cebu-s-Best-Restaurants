@@ -17,3 +17,12 @@ Database: MySQL (or the database you used)
 Project Status: This project was completed and launched two years ago as a guide to Cebu's best dining spots. It continues to serve as a valuable resource for anyone looking to experience the culinary delights of Cebu.
 
 About the Developer: "Local Eats" was my first project in Web Development 1, where I served as both the full-stack developer and project manager for the team. This experience laid the foundation for my journey in web development, allowing me to hone my skills and passion for creating impactful digital solutions.
+
+
+Refactor CSS for improved readability and performance
+
+- Consolidated background styles for better efficiency.
+- Enhanced media queries for responsiveness.
+- Optimized keyframe animations and hover effects.
+- Removed unused and commented-out CSS code.
+- Adjusted font sizes and colors for better consistency and accessibility.
