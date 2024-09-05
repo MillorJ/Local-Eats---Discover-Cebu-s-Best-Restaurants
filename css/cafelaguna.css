@@ -34,10 +34,14 @@
         #SearchBox, #search {
             display: none;
         }
-    #Mobile-Navbar{
-        display:block;
-        float:right;
-    }
+        #Mobile-Navbar {
+            display: block;
+            float: right;
+            background-color: #f7b801; /* Bright yellow for visibility */
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
     } .login-btn:hover{
     background-image: url('../images/naruto-background.gif');
     background-size: cover;
