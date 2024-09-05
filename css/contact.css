@@ -70,11 +70,13 @@ input[type=submit]:hover {
   }
 }
 
-  body {
-          margin: 0;
-          padding: 0;
-          font-family: Arial, sans-serif;
-      }
+/* Basic body styling */
+body {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  font-family: Arial, sans-serif; /* Default font */
+}
+
       .container {
           max-width: 1000px;
           margin: 0 auto;
