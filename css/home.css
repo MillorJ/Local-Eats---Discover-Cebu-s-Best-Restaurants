@@ -18,9 +18,9 @@
   
   .navbar-links li {
     list-style: none;
-    margin-right: 3px;
+    margin-right: 10px; /* Slightly increased margin for better spacing */
     margin-top: 15px;
-  }
+}
   
   .navbar-links li:last-child {
     margin-right: 0;
