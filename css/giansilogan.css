@@ -135,7 +135,8 @@
         margin: 0 auto;
     }
     
-    .comment-form input[type="text"], .comment-form textarea {
+    .comment-form input[type="text"],
+    .comment-form textarea {
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
