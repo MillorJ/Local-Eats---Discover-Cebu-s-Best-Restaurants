@@ -144,13 +144,18 @@
         border: none;
         cursor: pointer;
     }
-    #rating-bar {
-        text-align: center;
-        margin-top: 20px;
-        max-width: 600px; /* Adjust the width as per your preference */
-        margin-left: auto;
-        margin-right: auto;
-    }
+   /* User comments styles */
+.user-comments {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 600px; /* Adjust the width as per your preference */
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
     .user-comments {
         margin-top: 50px;
         text-align: center;
