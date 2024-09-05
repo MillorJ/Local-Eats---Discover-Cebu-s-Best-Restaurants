@@ -46,39 +46,33 @@ $rows = getNumReviews($id);
     </style>
 </head>
 <body>
-      <!--NAVBAR-->
-      <?php 
-      include 'navbar.php';
-    ?>
-    <img src="https://proudlyfilipino.com/wp-content/uploads/2016/09/Untitled-design-17.jpg" alt="Restaurant Image" id="restaurant-image">
+      <!-- Navbar -->
+    <?php include 'navbar.php'; ?>
 
-    <div id="container">
+<img src="https://proudlyfilipino.com/wp-content/uploads/2016/09/Untitled-design-17.jpg" alt="Restaurant Image" id="restaurant-image">
+
+<div id="container">
     <div id="restaurant-info">
         <h2>Café Laguna</h2>
-        <p>Filipino food is at the heart and soul of Café Laguna. With multiple branches spread throughout the Visayas and Mindanao regions, this restaurant has rightfully found itself as a go-to for those seeking out a traditional Filipino meal. Their legacy has spanned an impressive thirty years, continuously serving family favourites such as bulalo, sisig, and sapin-sapin. Though named Café Laguna, they are most popular in Cebu, with multiple branches spread throughout the island, as well as in Dumaguete and General Santos City.</p>
-        <p>Café Laguna began as a labour of love for the Urbina Family. Coming from a long line of fine cooks, Lita Urbina decided to share her culinary talents with everyone. With the help and encouragement of her family, she started Café Laguna and served Filipino food with distinctive taste incomparable to this day. Food that not only was good but which brought memories of home cooked meals shared with friends and family.</p>
-        <div class="restaurant-image-container">
-                <img src="https://lagunagroup.ph/wp-content/uploads/2021/10/cafe-laguna.jpg" alt="Restaurant Image 1" class="restaurant-image">
-            </div>
-            <div class="restaurant-image-container">
-                <img src="https://cdn.tatlerasia.com/tatlerasia/i/2022/02/08155407-cafe-laguna-interiors-resized_cover_1080x720.png" alt="Restaurant Image 2" class="restaurant-image2">
-            </div>
-            <div class="restaurant-image-container">
-                <img src="https://lagunagroup.ph/wp-content/uploads/2020/03/Cafe-Laguna_Interior_Lowres-scaled.jpg" alt="Restaurant Image 3" class="restaurant-image3">
-            </div>
-        <p>Now, Café Laguna is a landmark for wholesome and delicious Filipino cuisine. From humble beginnings, the expertise of Lita Urbina and her staff have touched the lives of so many Cebuanos through the restaurant and catering service. Proving, once and for all, that the best way to anyone’s heart is through delicious cooking.Now, Café Laguna is a landmark for wholesome and delicious Filipino cuisine. From humble beginnings, the expertise of Lita Urbina and her staff have touched the lives of so many Cebuanos through the restaurant and catering service. Proving, once and for all, that the best way to anyone’s heart is through delicious cooking.</p>
-        <p><strong>Social:</strong> <a href="https://www.facebook.com/CafeLagunaPH/">link</a></p>
-        <p><strong>Locations:</strong></p>
-        <p><strong>Ayala Center Cebu - The Terraces</strong></p>
-        <p>Operating Hours: 10:00am - 9:00pm</p>
-        <p>Contact Numbers: (032) 231 0922 / 0968 222 4198 / 0917 590 3662</p>
-        <p><strong>SM City Cebu - UG/F Northwing</strong></p>
-        <p>Operating Hours: 10:00am - 9:00pm</p>
-        <p>Contact Numbers: (032) 236 4132 / 0922 547 1470</p>
-        <p><strong>SM Seaside City Cebu - UG/F City Wing</strong></p>
-        <p>Operating Hours: 10:00am - 9:00pm</p>
-        <p>Contact Numbers: (032) 410 7426 / 0968 635 0801</p>
+        <p>Filipino food is at the heart and soul of Café Laguna. With multiple branches spread throughout the Visayas and Mindanao regions, this restaurant has rightfully found itself as a go-to for those seeking out a traditional Filipino meal. Their legacy has spanned an impressive thirty years, continuously serving family favorites such as bulalo, sisig, and sapin-sapin. Though named Café Laguna, they are most popular in Cebu, with multiple branches spread throughout the island, as well as in Dumaguete and General Santos City.</p>
+        <p>Café Laguna began as a labor of love for the Urbina Family. Coming from a long line of fine cooks, Lita Urbina decided to share her culinary talents with everyone. With the help and encouragement of her family, she started Café Laguna and served Filipino food with a distinctive taste that is incomparable to this day. Food that not only was good but also brought memories of home-cooked meals shared with friends and family.</p>
+
+        <div class="restaurant-images">
+            <img src="https://lagunagroup.ph/wp-content/uploads/2021/10/cafe-laguna.jpg" alt="Restaurant Image 1" class="restaurant-image">
+            <img src="https://cdn.tatlerasia.com/tatlerasia/i/2022/02/08155407-cafe-laguna-interiors-resized_cover_1080x720.png" alt="Restaurant Image 2" class="restaurant-image">
+            <img src="https://lagunagroup.ph/wp-content/uploads/2020/03/Cafe-Laguna_Interior_Lowres-scaled.jpg" alt="Restaurant Image 3" class="restaurant-image">
         </div>
+
+        <p>Now, Café Laguna is a landmark for wholesome and delicious Filipino cuisine. From humble beginnings, the expertise of Lita Urbina and her staff have touched the lives of so many Cebuanos through the restaurant and catering service. Proving, once and for all, that the best way to anyone’s heart is through delicious cooking.</p>
+
+        <p><strong>Social:</strong> <a href="https://www.facebook.com/CafeLagunaPH/">Facebook</a></p>
+        <p><strong>Locations:</strong></p>
+        <ul>
+            <li><strong>Ayala Center Cebu - The Terraces</strong><br>Operating Hours: 10:00am - 9:00pm<br>Contact Numbers: (032) 231 0922 / 0968 222 4198 / 0917 590 3662</li>
+            <li><strong>SM City Cebu - UG/F Northwing</strong><br>Operating Hours: 10:00am - 9:00pm<br>Contact Numbers: (032) 236 4132 / 0922 547 1470</li>
+            <li><strong>SM Seaside City Cebu - UG/F City Wing</strong><br>Operating Hours: 10:00am - 9:00pm<br>Contact Numbers: (032) 410 7426 / 0968 635 0801</li>
+        </ul>
+    </div>
     
     </div>
     </div>
