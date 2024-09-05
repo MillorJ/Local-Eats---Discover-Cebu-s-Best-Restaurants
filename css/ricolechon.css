@@ -104,10 +104,10 @@
     margin: 10px 0;
 }
 
-    .restaurant-image-container {
-        margin-top: 20px;
-        text-align: center;
-    }
+.restaurant-image-container {
+    margin-top: 20px;
+    text-align: center;
+}
     .restaurant-image {
         max-width: 100%;
         object-fit: cover;
