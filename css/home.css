@@ -39,12 +39,12 @@
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-  .navbar-links a:hover {
-    animation: rainbow 2s linear infinite;
-    color:antiquewhite;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background-color: #555;
-  }
+.navbar-links a:hover {
+  animation: rainbow 2s linear infinite;
+  color: antiquewhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
   #search:hover{
     animation: rainbow2 3s linear infinite;
     border-width: 2px;
