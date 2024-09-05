@@ -1,12 +1,13 @@
 <?php
 session_start();
 
+// Check if user is logged in
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
-    // user is not logged in, redirect to login page
-  //  header('Location: login.php');
-  header('Location: login.php?show_overlay=true');  
-  exit;
+    header('Location: login.php?show_overlay=true');
+    exit;
 }
+
+
 ?>
 <?php
 // Define variables and set to empty values
