@@ -100,9 +100,10 @@
     align-items: center;
     height: 100%;
 }
-    #restaurant-info p {
-        margin: 10px 0;
-    }
+#restaurant-info p {
+    margin: 10px 0;
+}
+
     .restaurant-image-container {
         margin-top: 20px;
         text-align: center;
