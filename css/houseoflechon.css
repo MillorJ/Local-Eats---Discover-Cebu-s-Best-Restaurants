@@ -110,21 +110,12 @@
     text-align: center;
 }
 
-    .restaurant-image {
-        max-width: 100%;
-        object-fit: cover;
-        max-height: 1000px; /* Adjust the height as per your preference */ /* FOR KYLE AND PATRICIA - kaning mga max-height kay make sure the pictures are aligned together like sa akoa */
-    }
-    .restaurant-image2 {
-        max-width: 100%;
-        object-fit: cover;
-        max-height: 450px; /* Adjust the height as per your preference */ /* FOR KYLE AND PATRICIA - kaning mga max-height kay make sure the pictures are aligned together like sa akoa */
-    }
-    .restaurant-image3 {
-        max-width: 100%;
-        object-fit: cover;
-        max-height: 450px; /* Adjust the height as per your preference */ /* FOR KYLE AND PATRICIA - kaning mga max-height kay make sure the pictures are aligned together like sa akoa */
-    }
+.restaurant-image,
+.restaurant-image2,
+.restaurant-image3 {
+    max-width: 100%;
+    object-fit: cover;
+}
     .comment-form {
         text-align: center;
         width: 100%;
