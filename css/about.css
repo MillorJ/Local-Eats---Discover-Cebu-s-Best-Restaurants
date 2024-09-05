@@ -1,145 +1,136 @@
 body {
-            background-image: url('https://img.freepik.com/free-photo/flat-lay-delicious-local-food-assortment-with-copy-space_23-2148833791.jpg?w=1480&t=st=1684159214~exp=1684159814~hmac=b7d3f7f451a0e3bdc156db4128eb4af795222d59e247fb7018cdb685b7c107b6');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-delicious-local-food-assortment-with-copy-space_23-2148833791.jpg?w=1480&t=st=1684159214~exp=1684159814~hmac=b7d3f7f451a0e3bdc156db4128eb4af795222d59e247fb7018cdb685b7c107b6');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
 
-        .login-btn:hover {
-            background-image: url('../images/naruto-background.gif');
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            /* text-outline supports all browsers (text-stroke is a no go)*/
-            text-shadow:
-                -1px -1px 0 black,
-                1px -1px 0 black,
-                -1px 1px 0 black,
-                1px 1px 0 black;
-        }
+.login-btn:hover,
+.register-btn:hover {
+    background-image: url('../images/naruto-background.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow:
+        -1px -1px 2px black,
+        1px -1px 2px black,
+        -1px 1px 2px black,
+        1px 1px 2px black;
+}
 
-        .register-btn:hover {
-            background-image: url('../images/naruto-background.gif');
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            /* text-outline supports all browsers (text-stroke is a no go)*/
-            text-shadow:
-                -1px -1px 0 black,
-                1px -1px 0 black,
-                -1px 1px 0 black,
-                1px 1px 0 black;
-        }
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
-        @keyframes slideIn {
-            0% {
-                transform: translateX(-100%);
-            }
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-            100% {
-                transform: translateX(0);
-            }
-        }
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
+.slide-in-icon {
+    animation: slideInDown 1s ease-in-out;
+}
 
-            100% {
-                opacity: 1;
-            }
-        }
+.shake-icon {
+    animation: shake 0.5s;
+}
 
-        @keyframes slideInDown {
-            0% {
-                transform: translateY(-100%);
-            }
+.centered-text {
+    text-align: right;
+    margin-top: 50px;
+    font-size: 80px; /* Adjusted for better responsiveness */
+    margin-right: 300px;
+    font-style: italic;
+    animation: fadeIn 1s ease-in-out;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    color: white;
+}
 
-            100% {
-                transform: translateY(0);
-            }
-        }
+.centered-para {
+    text-align: right;
+    margin-top: 30px;
+    font-size: 24px;
+    margin-left: 800px;
+    margin-right: 80px;
+    color: #333; /* Changed to ensure better contrast */
+    animation: fadeIn 1s ease-in-out;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+}
 
-        .slide-in-icon {
-            animation: slideInDown 1s ease-in-out;
-        }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.9); /* Increased opacity for better visibility */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
 
-        .shake-icon {
-            animation: shake 0.5s;
-        }
+h1 {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-        .centered-text {
-            text-align: right;
-            margin-top: 50px;
-            font-size: 100px;
-            margin-right: 300px;
-            font-style: italic;
+p {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #555; /* Lightened text color for better readability */
+}
 
-            animation: fadeIn 1s ease-in-out;
-            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-        }
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px; /* Added spacing between items */
+}
 
-        .centered-para {
-            text-align: right;
-            margin-top: 30px;
-            font-size: 30px;
-            margin-left: 800px;
-            margin-right: 80px;
-            color: black;
-            animation: fadeIn 1s ease-in-out;
-            text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
-        }
+.item {
+    flex: 0 0 23%; /* Adjusted to fit more neatly in the row */
+    margin-bottom: 30px;
+    text-align: center;
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 50px;
-            background-color: rgba(255, 255, 255, 0.8);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
+.item img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px; /* Added subtle corner rounding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
 
-        h1 {
-            font-size: 48px;
-            font-style: italic;
-            font-weight: 900;
-            text-align: center;
-            margin-bottom: 30px;
-        }
+.item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #222; /* Darker heading color */
+}
 
-        p {
-            padding-top: 20px;
-            font-size: 18px;
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .row {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-wrap: wrap;
-        }
-
-        .item {
-            padding-top: 30px;
-            flex: 0 0 25%;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        .item img {
-            height: 200px;
-            /* Adjust the height as desired */
-            object-fit: cover;
-        }
-
-        .item h3 {
-            margin-top: 10px;
-            font-size: 24px;
-        }
-
-        .item p {
-            margin-top: -20px;
-            font-size: 16px;
-        }
+.item p {
+    margin-top: -10px; /* Reduced the margin to better align with the layout */
+    font-size: 16px;
+    color: #666; /* Softer color for paragraph text */
+}
