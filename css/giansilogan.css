@@ -107,8 +107,9 @@
     .restaurant-image {
         max-width: 100%;
         object-fit: cover;
-        max-height: 900px; /* Adjust the height as per your preference */ /* FOR KYLE AND PATRICIA - kaning mga max-height kay make sure the pictures are aligned together like sa akoa */
+        max-height: 900px;
     }
+    
     .restaurant-image2 {
         max-width: 100%;
         object-fit: cover;
