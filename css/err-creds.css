@@ -15,9 +15,10 @@ body {
 }
 
 h1 {
-    color: #FF5959;
-    margin-top: 0px;
+    color: #FF6A6A; /* Slightly different red shade */
+    margin-top: 5px; /* Adjusted top margin */
 }
+
 
 button {
     background-color: #FF5959;
