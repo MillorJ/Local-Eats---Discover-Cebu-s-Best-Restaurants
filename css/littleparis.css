@@ -122,7 +122,7 @@
     .restaurant-image3 {
         max-width: 100%;
         object-fit: cover;
-        max-height: 537px; /* Adjust the height as per your preference */ /* FOR KYLE AND PATRICIA - kaning mga max-height kay make sure the pictures are aligned together like sa akoa */
+        max-height: 537px; 
     }
     .comment-form {
         text-align: center;
