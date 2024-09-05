@@ -45,10 +45,11 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: #555;
 }
-  #search:hover{
-    animation: rainbow2 3s linear infinite;
-    border-width: 2px;
-  }
+#search:hover {
+  animation: rainbow2 3s linear infinite;
+  border-width: 2px;
+}
+
   @media screen and (max-width: 768px) {
     .navbar {
       flex-direction: column;
