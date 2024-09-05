@@ -24,10 +24,10 @@
     -1px 1px 0 black,
     1px 1px 0 black;
     }
-    @media (min-width: 728px){
-    #Mobile-Navbar{
-        display:none;
-    }
+    @media (min-width: 728px) {
+        #Mobile-Navbar {
+            display: none;
+        }
     }
     @media (max-width: 500px){
     #SearchBox,#search{
