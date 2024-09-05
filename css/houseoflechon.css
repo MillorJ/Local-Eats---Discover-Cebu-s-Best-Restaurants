@@ -1,4 +1,6 @@
-.login-btn:hover{
+/* Button hover effects */
+.login-btn:hover,
+.register-btn:hover {
     background-image: url('../images/naruto-background.gif');
     background-size: cover;
     background-position: center center;
@@ -9,7 +11,8 @@
     1px -1px 0 black,
     -1px 1px 0 black,
     1px 1px 0 black;
-    }
+}
+
     .register-btn:hover{
     background-image: url('../images/naruto-background.gif');
     background-size: cover;
