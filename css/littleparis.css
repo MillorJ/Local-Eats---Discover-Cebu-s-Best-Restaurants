@@ -92,13 +92,15 @@
     max-width: 1000px; /* Adjust the width as per your preference */
 }
 
-    #container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
+   /* Container styles */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
     #restaurant-info p {
         margin: 10px 0;
     }
