@@ -115,12 +115,13 @@
     object-fit: cover;
 }
 
-    .comment-form {
-        text-align: center;
-        width: 100%;
-        max-width: 1000px; /* Adjust the width as per your preference */
-        margin: 0 auto;
-    }
+  /* Comment Section */
+.comment-form {
+    text-align: center;
+    width: 100%;
+    max-width: 1000px; /* Adjust as needed */
+    margin: 0 auto;
+}
     .comment-form input[type="text"], .comment-form textarea {
         width: 100%;
         padding: 10px;
