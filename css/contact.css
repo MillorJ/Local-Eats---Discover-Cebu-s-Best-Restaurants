@@ -77,12 +77,12 @@ body {
   font-family: Arial, sans-serif; /* Default font */
 }
 
-      .container {
-          max-width: 1000px;
-          margin: 0 auto;
-          padding: 20px;
-          box-sizing: border-box;
-      }
+.container {
+  max-width: 1000px; /* Max width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding inside */
+  box-sizing: border-box; /* Include padding in width */
+}
       h1 {
           text-align: center;
           margin: 20px 0;
