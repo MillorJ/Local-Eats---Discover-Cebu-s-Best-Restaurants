@@ -134,6 +134,9 @@
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: border-color 0.3s ease;
     }
     .comment-form input[type="submit"] {
         padding: 10px 20px;
