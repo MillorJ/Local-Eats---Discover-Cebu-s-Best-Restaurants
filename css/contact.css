@@ -113,27 +113,28 @@ form {
   flex-wrap: wrap; /* Wrap form fields */
   margin-top: 20px; /* Top margin */
 }
-      form input, form textarea {
-          display: block;
-          width: 100%;
-          padding: 10px;
-          margin-bottom: 10px;
-          box-sizing: border-box;
-          border: 2px solid #ccc;
-          border-radius: 4px;
-          resize: vertical;
-      }
-      form button {
-          background-color: #4CAF50;
-          color: #fff;
-          padding: 10px 20px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-          margin-top: 10px;
-          margin-left: auto;
-          display: block;
-      }
+form input, form textarea {
+  display: block; /* Block display */
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for better UX */
+  margin-bottom: 10px; /* Spacing between fields */
+  box-sizing: border-box; /* Include padding in width */
+  border: 2px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+  resize: vertical; /* Allow vertical resize */
+}
+form button {
+  background-color: #4CAF50; /* Green background */
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  margin-top: 10px; /* Top margin */
+  margin-left: auto; /* Align to right */
+  display: block; /* Block display */
+}
+
       form button:hover {
           background-color: #3e8e41;
       }
