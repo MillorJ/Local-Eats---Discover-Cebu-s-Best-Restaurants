@@ -23,12 +23,14 @@ input[type=submit]:hover {
   background-color: #facf98; /* Slightly darker beige on hover */
 }
 
-  .container {
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin-top: 20px;
-  }
+/* Container styling for form section */
+.container {
+  border-radius: 5px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Padding around content */
+  margin-top: 20px; /* Margin from top */
+}
+
 
   .container1 {
     border-radius: 5px;
