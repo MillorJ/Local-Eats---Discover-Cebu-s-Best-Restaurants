@@ -50,13 +50,13 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 
         <div class="row">
             <div class="item">
-                <img src="https://scontent.fceb2-1.fna.fbcdn.net/v/t1.15752-9/279284236_727655675238441_3528796320343643131_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHW6KXqJlrw_NQn8-jmxA1QOK53N6b071Q4rnc3pvTvVAR3nnbI5WuiFtWENTkMH8gyXTzJxVPuy8SjD96P6om6&_nc_ohc=7VN_Yp1W0QgAX9YLlAa&_nc_ht=scontent.fceb2-1.fna&oh=03_AdR_dsRT46UmwhYvJGa42ONnugcYJsaNynKkdmw4STQ00A&oe=6489BB7B" alt="Image 1">
+                <img src="https://scontent.fceb3-1.fna.fbcdn.net/v/t39.30808-6/429666900_2505048093008152_1418366835154342163_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGAz3TEZLvrZnj8tJOiltSEpYe4GoCcaIelh7gagJxohxEr0Iq82p0X1CtMQRP-1iRw35a7-wqty-VijepUh2mD&_nc_ohc=PHFjU1F5TCkQ7kNvgH3KYBO&_nc_ht=scontent.fceb3-1.fna&oh=00_AYCrouxbMyi9wCjOpkeCYgPynpqObCv8C6cnGYwW5UlADQ&oe=66DF717A" alt="Image 1">
                 <h3>Iann James Andrei Sagun</h3>
                 <p>IT 1st Year (Front-End)</p>
             </div>
 
             <div class="item">
-                <img src="https://scontent.fceb2-1.fna.fbcdn.net/v/t1.15752-9/346103239_178503765158151_8853636744729080577_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGNmhfHnI--6_ew6pjqXnqCZSNC4bScYeplI0LhtJxh6tI2XYD_HXoMJbYsBN49inRmvaV03-zvn0JdM0RNC8q9&_nc_ohc=x54b59Zl3YYAX9yKmH9&_nc_ht=scontent.fceb2-1.fna&oh=03_AdRreIflES8jr7Sm5zCkprjBRuI8AS72TTbBbsdQQNI_MQ&oe=6489C1E9" alt="Image 2">
+                <img src="https://scontent.fceb3-1.fna.fbcdn.net/v/t39.30808-6/346471162_788548585868242_471467618750634535_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFedAJODX66607oC7BAkVhtjzrRXMuGHTiPOtFcy4YdODR_zSKmjf1mEJnyjamhavUOvyKMbLIa9ppMSplboPeW&_nc_ohc=O8FX9QCyKB0Q7kNvgEoH4Zo&_nc_ht=scontent.fceb3-1.fna&_nc_gid=AyRijS9c9ej6Y8xBQkEEOsd&oh=00_AYAzzlT-6Tyi8NZaGwHFRKj_M4kEfKTpVATquxi5nG-aqw&oe=66DF7284" alt="Image 2">
                 <h3>Kyle Yvan G. Baculao</h3>
                 <p>IT 1st Year (Front-End)</p>
             </div>
@@ -68,7 +68,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
             </div>
 
             <div class="item">
-            <img src="images/" alt="Image 4">
+            <img src="https://scontent.fceb3-1.fna.fbcdn.net/v/t39.30808-6/457558912_8076490065805683_5068600372314719825_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFS-ycp3LLkplf8LNe_8HufRCurHpIWwQBEK6sekhbBAI77npUGrNNGWD_X_rgCzNSmxexbm7gV1-sm176ux-RX&_nc_ohc=w71SwNcRpdcQ7kNvgEGMLK9&_nc_ht=scontent.fceb3-1.fna&oh=00_AYAMf0Y5WUyajE6fpTWTWENtB9emoHls4xPSrihN0_nhbw&oe=66DF6262" alt="Image 4">
                 <h3>John Rey Millor</h3>
                 <p>IT 1st Year (Full Stack Developer / Project Manager)</p>
             </div>
