@@ -83,10 +83,10 @@ body {
   padding: 20px; /* Padding inside */
   box-sizing: border-box; /* Include padding in width */
 }
-      h1 {
-          text-align: center;
-          margin: 20px 0;
-      }
+h1 {
+  text-align: center; /* Center align */
+  margin: 20px 0; /* Margin around header */
+}
       p {
           text-align: center;
           margin: 0 0 20px;
