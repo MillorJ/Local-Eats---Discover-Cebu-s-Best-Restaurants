@@ -80,14 +80,16 @@
         float:right;
     }
     }
-  #restaurant-image {
+    #restaurant-image {
         width: 100%;
         height: auto;
         max-height: 50vh;
         object-fit: cover;
         display: block;
         margin: 0 auto;
+        border-radius: 10px; /* Add a nice border radius for rounded corners */
     }
+    
     #restaurant-info {
         text-align: justify;
         margin: 50px;
