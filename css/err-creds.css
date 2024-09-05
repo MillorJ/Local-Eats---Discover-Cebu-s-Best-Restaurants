@@ -21,16 +21,17 @@ h1 {
 
 
 button {
-    background-color: #FF5959;
+    background-color: #FF6A6A; /* Same color scheme for button */
     border: none;
-    border-radius: 5px;
+    border-radius: 6px; /* Slightly larger border radius */
     color: #FFFFFF;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
+    font-size: 17px; /* Adjusted font size */
+    margin-top: 25px; /* Increased top margin */
+    padding: 12px 22px; /* Larger padding */
+    transition: all 0.25s ease; /* Slightly quicker transition */
 }
+
 
 button:hover {
     background-color: #FF4444;
