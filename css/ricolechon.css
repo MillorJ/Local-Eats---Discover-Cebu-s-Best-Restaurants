@@ -35,11 +35,12 @@
             display: none;
         }
     
-    #Mobile-Navbar{
-        display:block;
-        float:right;
+        #Mobile-Navbar {
+            display: block;
+            float: right;
+        }
     }
-    } .login-btn:hover{
+     .login-btn:hover{
     background-image: url('../images/naruto-background.gif');
     background-size: cover;
     background-position: center center;
