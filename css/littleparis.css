@@ -127,7 +127,7 @@
     .comment-form {
         text-align: center;
         width: 100%;
-        max-width: 1000px; /* Adjust the width as per your preference */
+        max-width: 1000px; 
         margin: 0 auto;
     }
     .comment-form input[type="text"], .comment-form textarea {
