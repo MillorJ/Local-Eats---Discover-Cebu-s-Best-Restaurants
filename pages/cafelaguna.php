@@ -22,7 +22,6 @@ if (isset($_POST['create_review'])) {
     exit();
 }
 
-
 $reviews = getAllReviews($id);
 $rows = getNumReviews($id);
 
