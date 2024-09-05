@@ -93,7 +93,7 @@
     #restaurant-info {
         text-align: justify;
         margin: 50px;
-        max-width: 1000px; /* Adjust the width as per your preference */
+        max-width: 1000px; 
     }
     #container {
         display: flex;
