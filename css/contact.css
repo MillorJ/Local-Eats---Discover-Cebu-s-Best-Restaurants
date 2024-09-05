@@ -138,13 +138,13 @@ form button {
 form button:hover {
   background-color: #3e8e41; /* Darker green on hover */
 }
-      @media screen and (max-width: 600px) {
-          .picture-scroll img {
-              width: 150px;
-              height: 90px;
-              margin-right: 5px;
-          }
-      }
+@media screen and (max-width: 600px) {
+  .picture-scroll img {
+      width: 150px; /* Smaller image width */
+      height: 90px; /* Smaller image height */
+      margin-right: 5px; /* Smaller spacing */
+  }
+}
 
   input[type=text], select, textarea {
     width: 100%;
