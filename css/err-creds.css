@@ -4,14 +4,14 @@ body {
 }
 
 
-.error-container {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+.warning-box {
+    background-color: #FAFAFA; /* Changed container background color */
+    border-radius: 12px; /* Adjusted border radius */
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    padding: 25px; /* Modified padding */
     text-align: center;
-    margin: 50px auto;
-    max-width: 600px;
+    margin: 60px auto; /* Updated margin */
+    max-width: 620px; /* Slightly wider max-width */
 }
 
 h1 {
