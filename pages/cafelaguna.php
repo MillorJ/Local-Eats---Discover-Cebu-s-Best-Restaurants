@@ -99,13 +99,16 @@ $rows = getNumReviews($id);
                 </form>
             </div>
         </div>
-  <div class="comments">
-        <?php
-            for($i = 0; $i < $rows; $i++) {
-                echo '<hr><h2>'. $reviews[$i]['user_name'] . '</h2><i><u>(' . $reviews[$i]['rating'] . ' stars)</u></i><p>' . $reviews[$i]['comment'] . '</p>';
-                echo '<a href="../php/delete_review.php?id=' . $reviews[$i]['id'] . '">Delete</a> | <a href="../php/update_review.php?id=' . $reviews[$i]['id'] . '">Update</a>';
-            }
-        ?>
+        <div class="comments">
+            <?php foreach ($reviews as $review): ?>
+                <hr>
+                <h2><?= htmlspecialchars($review['user_name']) ?></h2>
+                <i><u>(<?= htmlspecialchars($review['rating']) ?> stars)</u></i>
+                <p><?= htmlspecialchars($review['comment']) ?></p>
+                <a href="../php/delete_review.php?id=<?= $review['id'] ?>">Delete</a> | 
+                <a href="../php/update_review.php?id=<?= $review['id'] ?>">Update</a>
+            <?php endforeach; ?>
+        </div>
     </div>
 </body>
 </html>
