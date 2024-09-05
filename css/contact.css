@@ -134,10 +134,10 @@ form button {
   margin-left: auto; /* Align to right */
   display: block; /* Block display */
 }
-
-      form button:hover {
-          background-color: #3e8e41;
-      }
+/* Submit button hover effect */
+form button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
       @media screen and (max-width: 600px) {
           .picture-scroll img {
               width: 150px;
