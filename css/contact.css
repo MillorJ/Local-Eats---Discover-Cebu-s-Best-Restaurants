@@ -19,9 +19,9 @@ input[type=submit] {
   cursor: pointer; /* Pointer cursor for hover */
 }
 
-  input[type=submit]:hover {
-    background-color: #facf98;
-  }
+input[type=submit]:hover {
+  background-color: #facf98; /* Slightly darker beige on hover */
+}
 
   .container {
     border-radius: 5px;
