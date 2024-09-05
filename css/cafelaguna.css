@@ -30,10 +30,10 @@
             display: none;
         }
     }
-    @media (max-width: 500px){
-    #SearchBox,#search{
-        display:none;
-    }
+    @media (max-width: 500px) {
+        #SearchBox, #search {
+            display: none;
+        }
     #Mobile-Navbar{
         display:block;
         float:right;
