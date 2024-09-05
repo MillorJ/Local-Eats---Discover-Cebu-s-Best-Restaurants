@@ -32,12 +32,12 @@ input[type=submit]:hover {
 }
 
 
-  .container1 {
-    border-radius: 5px;
-    background-color: #fbefde;
-    padding: 20px;
-    margin-top: 20px;
-  }
+.container1 {
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fbefde; /* Light beige background */
+  padding: 20px; /* Padding around content */
+  margin-top: 20px; /* Top margin */
+}
 
   .login-btn:hover{
   background-image: url('../images/naruto-background.gif');
