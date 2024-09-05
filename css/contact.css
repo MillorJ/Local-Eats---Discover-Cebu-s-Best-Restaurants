@@ -91,13 +91,13 @@ p {
   text-align: center; /* Center align */
   margin: 0 0 20px; /* Margin for spacing */
 }
-      .picture-scroll {
-          display: flex;
-          overflow-x: scroll;
-          -webkit-overflow-scrolling: touch;
-          scrollbar-width: none;
-          -ms-overflow-style: none;
-      }
+.picture-scroll {
+  display: flex; /* Flex layout */
+  overflow-x: scroll; /* Horizontal scroll */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling */
+  scrollbar-width: none; /* Hide scrollbar */
+  -ms-overflow-style: none; /* Internet Explorer/Edge hide scrollbar */
+}
       .picture-scroll::-webkit-scrollbar {
           display: none;
       }
