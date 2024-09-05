@@ -58,6 +58,40 @@
     object-fit: cover;
 }
 
+/* Restaurant-Specific Heights */
+.CAFELAGUNA-image { max-height: 550px; }
+.CAFELAGUNA-image2 { max-height: 550px; }
+.CAFELAGUNA-image3 { max-height: 548px; }
+
+.RICO-image { max-height: 800px; }
+.RICO-image2 { max-height: 617px; }
+.RICO-image3 { max-height: 593px; }
+
+.GIAN-image { max-height: 900px; }
+.GIAN-image2 { max-height: 830px; }
+.GIAN-image3 { max-height: 650px; }
+
+.HOL-image { max-height: 1000px; }
+.HOL-image2 { max-height: 450px; }
+.HOL-image3 { max-height: 450px; }
+
+.LAVIE-image { max-height: 900px; }
+.LAVIE-image2 { max-height: 523px; }
+.LAVIE-image3 { max-height: 537px; }
+
+.PAYAG-image { max-height: 998px; }
+.PAYAG-image2 { max-height: 898px; }
+.PAYAG-image3 { max-height: 900px; }
+
+.LANTAW-image { max-height: 998px; }
+.LANTAW-image2 { max-height: 1500px; }
+.LANTAW-image3 { max-height: 900px; }
+
+.TOP-image { max-height: 998px; }
+.TOP-image2 { max-height: 1500px; }
+.TOP-image3 { max-height: 900px; }
+
+
 /* ======================================= COMMENTS */
 .comment-form {
     text-align: center;
