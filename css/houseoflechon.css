@@ -87,11 +87,13 @@
         display: block;
         margin: 0 auto;
     }
-    #restaurant-info {
-        text-align: justify;
-        margin: 50px;
-        max-width: 1000px; /* Adjust the width as per your preference */
-    }
+   /* Restaurant info styles */
+#restaurant-info {
+    text-align: justify;
+    margin: 50px;
+    max-width: 1000px; /* Adjust the width as per your preference */
+}
+
     #container {
         display: flex;
         flex-direction: column;
