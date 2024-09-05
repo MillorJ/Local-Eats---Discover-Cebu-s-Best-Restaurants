@@ -29,136 +29,33 @@
     text-align: center;
 }
 
-/* CAFE LAGUNA =================================== */
-.CAFELAGUNA-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 550px; 
-}
-.CAFELAGUNA-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 550px; 
-}
-.CAFELAGUNA-image3 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 548px; 
-}
-/* RICO'S LECHON ================================= */
-.RICO-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 800px;
-}
-.RICO-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 617px;
-}
-.RICO-image3 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 593px;
-}
-/* SILOGAN NI GIAN =============================== */
-.GIAN-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 900px;
-}
-.GIAN-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 830px;
-}
-.GIAN-image3 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 650px;
-}
-/* HOUSE OF LECHON =============================== */
-.HOL-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 1000px; 
-}
-.HOL-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 450px; 
-}
-.HOL-image3 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 450px; 
-}
-/* LA VIE PARISIENNE ============================= */
-.LAVIE-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 900px;
-}
-.LAVIE-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 523px;
-}
-.LAVIE-image3 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 537px;
-}
-
-/* Edsnath's Payag-Payag =============================== */
-.PAYAG-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 998px;
-}
-.PAYAG-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 898px;
-}
-.PAYAG-image3 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 900px
-}
-
-/* Lantaw Cordova =============================== */
-.LANTAW-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 998px;
-}
-.LANTAW-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 1500px;
-}
-.LANTAW-image3 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 900px
-}
-
-/* Top of Cebu =============================== */
-.TOP-image {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 998px;
-}
-.TOP-image2 {
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 1500px;
-}
+/* Restaurant-Specific Images */
+.CAFELAGUNA-image,
+.CAFELAGUNA-image2,
+.CAFELAGUNA-image3,
+.RICO-image,
+.RICO-image2,
+.RICO-image3,
+.GIAN-image,
+.GIAN-image2,
+.GIAN-image3,
+.HOL-image,
+.HOL-image2,
+.HOL-image3,
+.LAVIE-image,
+.LAVIE-image2,
+.LAVIE-image3,
+.PAYAG-image,
+.PAYAG-image2,
+.PAYAG-image3,
+.LANTAW-image,
+.LANTAW-image2,
+.LANTAW-image3,
+.TOP-image,
+.TOP-image2,
 .TOP-image3 {
     max-width: 100%;
     object-fit: cover;
-    max-height: 900px
 }
 
 /* ======================================= COMMENTS */
