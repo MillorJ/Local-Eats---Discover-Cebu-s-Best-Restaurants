@@ -34,5 +34,5 @@ button {
 
 
 button:hover {
-    background-color: #FF4444;
+    background-color: #FF5252; /* Different hover shade */
 }
