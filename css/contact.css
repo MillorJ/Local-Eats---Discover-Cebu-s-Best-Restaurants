@@ -60,15 +60,16 @@ input[type=submit]:hover {
       display: none; /* Hide navbar on larger screens */
   }
 }
-  @media (max-width: 500px){
-    #SearchBox,#search{
-      display:none;
-    }
-    #Mobile-Navbar{
-      display:block;
-      float:right;
-    }
+@media (max-width: 500px) {
+  #SearchBox, #search {
+      display: none; /* Hide search box on small screens */
   }
+  #Mobile-Navbar {
+      display: block; /* Show mobile navbar */
+      float: right; /* Float navbar to the right */
+  }
+}
+
   body {
           margin: 0;
           padding: 0;
